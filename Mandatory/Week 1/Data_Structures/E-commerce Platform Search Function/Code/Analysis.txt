@@ -1,0 +1,33 @@
+Analysis
+
+Big O Notation
+Big O notation is used to describe the performance of an algorithm as the input size increases. It represents the upper bound (worst-case complexity) of an algorithm.
+Examples:
+O(1)      Constant Time
+O(log n)  Logarithmic Time
+O(n)      Linear Time
+O(n²)     Quadratic Time
+
+Search Scenarios
+Best Case
+Element found at first position.
+Linear Search : O(1)
+Binary Search : O(1)
+
+Average Case
+Element found somewhere in the middle.
+Linear Search : O(n)
+
+Binary Search : O(log n)
+
+Worst Case
+Element found at last position or not found.
+Linear Search : O(n)
+
+Binary Search : O(log n)
+
+Conclusion :
+Binary Search is more efficient for large datasets because it repeatedly divides the search space into two halves.
+Linear Search checks elements one by one and becomes slower as the number of products increases.
+Therefore, Binary Search is more suitable for an e-commerce platform where thousands or millions of products need to be searched quickly.
+
